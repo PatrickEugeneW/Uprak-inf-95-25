@@ -1,0 +1,144 @@
+body {
+    background-color: #cecdcb; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-image: url(background.jpg);
+
+}
+
+@font-face {
+    font-family: "font";
+    src: url(font.ttf);
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;} 
+}
+
+@keyframes baseline {
+    0% { transform: translateY(140%); }
+    100% { transform: translateY(0); }
+}
+
+.container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.29);
+    padding: 20px;
+    margin: 15px;
+    background-color: #ebf4ff;
+    border-radius: 20px;
+    margin-bottom: 18px;
+}
+
+
+p, li {
+    font-family: "font";
+    animation: baseline 0.9s forwards cubic-bezier(.4,0,.39,1.04);
+    color: rgb(133, 75, 75);
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+
+
+.mainpage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100vw;
+    box-shadow: 20px 20px 10px #73242400;
+    justify-content: baseline;
+
+}
+
+
+.logoheaderatas {
+    height: 3.5vw;
+    
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgba(109, 67, 20, 0.733);
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "font", sans-serif;
+    border: 3px solid #444444;
+    animation: baseline 0.9s forwards cubic-bezier(.4,0,.39,1.04);
+    animation: fadeIn 2s;
+}
+
+
+
+.navbar a {
+    align-self: center;
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.navbar a:hover {
+    background-color: #a56969; 
+    color: rgb(48, 66, 106);
+}
+
+
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.imghover{
+    transition: transform .2s;
+    width: auto;
+    height: 85px;
+}
+
+.imghover:hover {
+    transform: scale(1.05);
+}
+
+.spotify {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100vw;
+    
+    box-shadow: 20px 20px 10px #73242400;
+   
+    justify-content: baseline;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainpage {
+  background-image: url(test\ background.PNG);
+  background-size: cover;
+}
