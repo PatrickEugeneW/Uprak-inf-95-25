@@ -102,24 +102,6 @@ p, li {
 }
 
 
-
-.content-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    
-}
-
-.imghover{
-    transition: transform .2s;
-    width: auto;
-    height: 85px;
-}
-
-.imghover:hover {
-    transform: scale(1.05);
-}
-
 .spotify {
     display: block;
     margin-left: auto;
@@ -130,13 +112,6 @@ p, li {
    
     justify-content: baseline;
 }
-
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .mainpage {
   background-image: url(test\ background.PNG);
